@@ -27,6 +27,7 @@ After the installation is complete, `git bash` is ready to use in VSCode.
 To set your default terminal to use `git bash` follow the steps detailed in [this post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994).
 
 Your terminal should now look similar to this:
+
 ![Image](git-bash-terminal.png)
 
 Now you can move on to establishing a remote connection. Begin by entering this command into your terminal:
