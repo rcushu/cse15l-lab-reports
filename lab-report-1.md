@@ -35,3 +35,15 @@ Now you can move on to establishing a remote connection. Begin by entering this 
 ``ssh cs15lyyyyzz@ieng6.ucsd.edu``
 
 `yyyy` will be replaced with your current term (Spring 2023 = sp23, Winter 2020 = wi20, etc.) and `zz` will be replaced with the letters in your course-specific account.
+
+
+Since it'll be your first time connecting to the server, you'll probably get this message or something similar:
+
+``ssh cs15lwi23zz@ieng6.ucsd.edu
+The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+``
+
+This is normal whenconnecting to a new server for the first time, and you can type `yes`.
+
