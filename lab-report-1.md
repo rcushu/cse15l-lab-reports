@@ -11,3 +11,5 @@ When installed, launch VSCode. You should see a window similar to this:
 *Note: the window may appear different depending on system/settings, but it should be similar*
 
 ## Remotely Connecting
+
+Before we can remotely connect, if you're on Windows, install [Git for Windows](https://gitforwindows.org/)
