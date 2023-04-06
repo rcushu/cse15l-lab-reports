@@ -1,4 +1,4 @@
-# **Lab Report 1** #
+# **Lab Report 1**
 Ramis Cushu
 
 ## Installing VSCode ##
@@ -9,3 +9,5 @@ When installed, launch VSCode. You should see a window similar to this:
 ![Image](vscode-first-time-launch.png)
 
 *Note: the window may appear different depending on system/settings, but it should be similar*
+
+## Remotely Connecting
