@@ -19,3 +19,4 @@ Before we can remotely connect, there are 2 important steps you must complete:
   * Once your password is reset, it will take a few minutes to take effect
 2. If you're on Windows, install [Git for Windows](https://gitforwindows.org/)
 ![Image](git.png)
+      Once installed
