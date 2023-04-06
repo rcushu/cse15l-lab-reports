@@ -12,7 +12,7 @@ When installed, launch VSCode. You should see a window similar to this:
 
 ## Remotely Connecting
 
-Before we can remotely connect, there are 2 important steps you must complete:
+Before you can remotely connect, there are 2 important steps you must complete:
 1. Reset your CSE15L account password
   * You can look up your CSE15L account [here](https://sdacs.ucsd.edu/~icc/index.php)
   * To reset your password follow [this tutorial](https://docs.google.com/document/d/1hs7CyQeh-MdUfM9uv99i8tqfneos6Y8bDU0uhn1wqho/edit)
@@ -25,5 +25,12 @@ Run the .exe file after it's been downloaded and follow the instsructions to com
 After the installation is complete, `git bash` is ready to use in VSCode.
 
 To set your default terminal to use `git bash` follow the steps detailed in [this post](https://stackoverflow.com/questions/42606837/how-do-i-use-bash-on-windows-from-the-visual-studio-code-integrated-terminal/50527994#50527994).
+
 Your terminal should now look similar to this:
 ![Image](git-bash-terminal.png)
+
+Now you can move on to establishing a remote connection. Begin by entering this command into your terminal:
+
+``ssh cs15lyyyyzz@ieng6.ucsd.edu``
+
+`yyyy` will be replaced with your current term (Spring 2023 = sp23, Winter 2020 = wi20, etc.) and `zz` will be replaced with the letters in your course-specific account.
