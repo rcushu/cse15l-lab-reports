@@ -69,6 +69,10 @@ At this point, you can try running some commands both on your computer, and on t
 
 Try running these commands in different ways to see what output they produce.
 
+Example:
+
+![Image](commands.png)
+
 ---
 
 To log out of the terminal, you can either:
