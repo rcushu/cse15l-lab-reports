@@ -30,6 +30,8 @@ Your terminal should now look similar to this:
 
 ![Image](git-bash-terminal.png)
 
+---
+
 Now you can move on to establishing a remote connection. Begin by entering this command into your terminal:
 
 ``ssh cs15lyyyyzz@ieng6.ucsd.edu``
@@ -47,3 +49,28 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 This is normal whenconnecting to a new server for the first time, and you can type `yes`.
 
+`Password:` should now have appeared in the terminal, and you can enter the password you set for your CSE15L account
+
+*Note: the text will not be displayed as you enter your password, this is normal and is a measure for privacy*
+
+---
+
+Now you'll be connected to the server in the CSE basement, and any commands you run will run on that computer.
+
+## Running Commands
+
+At this point, you can try running some commands both on your computer, and on the remote computer after ssh-ing (use the terminal in VScode). Some commands you can try are
+* `cd` 
+* `ls`
+* `pwd` 
+* `mkdir`
+* `cp`
+* `cat`
+
+Try running these commands in different ways to see what output they produce.
+
+---
+
+To log out of the terminal, you can either:
+* Press Ctrl + D
+* Run the command `exit`
