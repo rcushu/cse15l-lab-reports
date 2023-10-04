@@ -20,6 +20,12 @@ When `cd` is used with a path to a file, it will produce an error as the command
 
 ![Image](ls1.png)
 
+When `ls` is used with no arguments, it lists the directories/files present within your current directory.
+
 ![Image](ls2.png)
 
+When `ls` is used with a path to a directory, as long as the specified directory is present within your current directory, it lists the directories/files present within that specified directory.
+
 ![Image](ls3.png)
+
+When `ls` is used with a path to a file, it will list the file name.
