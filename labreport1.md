@@ -2,7 +2,7 @@
 
 ## Commands
 
-**CD**
+***cd***
 
 ![Image](cd1.png)
 
@@ -15,3 +15,6 @@ When cd is used with a path to a directory, it will change your directory to the
 ![Image](cd3.png)
 
 When cd is used with a path to a file, it will produce an error as the command is only intended to be used with directories.
+
+***ls***
+
