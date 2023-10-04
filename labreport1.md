@@ -35,3 +35,15 @@ When `ls` is used with a path to a file, it will list the file name.
 ---
 
 `cat`
+
+![Image](cat1.png)
+
+When `cat` is used with no arguments, it takes in a text input and prints that text back to you.
+
+![Image](cat2.png)
+
+When `cat` is used with a path to a directory, it will produce an error as the command is only intended to be used with files.
+
+![Image](cat3.png)
+
+When `cat` is used with a path to a file, it will print the contents of that file.
