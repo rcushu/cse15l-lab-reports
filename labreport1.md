@@ -2,7 +2,7 @@
 
 ## Commands
 
-***cd***
+`cd`
 
 ![Image](cd1.png)
 
