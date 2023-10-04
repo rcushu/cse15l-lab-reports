@@ -16,6 +16,8 @@ When `cd` is used with a path to a directory, it will change your directory to t
 
 When `cd` is used with a path to a file, it will produce an error as the command is only intended to be used with directories.
 
+
+
 `ls`
 
 ![Image](ls1.png)
@@ -29,3 +31,7 @@ When `ls` is used with a path to a directory, as long as the specified directory
 ![Image](ls3.png)
 
 When `ls` is used with a path to a file, it will list the file name.
+
+
+
+`cat`
