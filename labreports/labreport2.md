@@ -22,4 +22,4 @@ Mostly everything is the same in this case, with the exception of  `words` being
 
 ![Image](../labreport2-images/keys.png)
 
-![Image](../labreport2-ssh-login.png)
+![Image](../labreport2-images/ssh-login.png)
