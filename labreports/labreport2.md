@@ -16,10 +16,19 @@ Here, the `handleRequest` method is being called, as it is when any URL is creat
 
 ![Image](../labreport2-images/add-message2.png)
 
-Mostly everything is the same in this case, with the exception of  `words` being updated with a different string and number, and the return message being different. This is functionally identical to the last example.
+`handleRequest` is once again being called and detects that the URL contains `/add-message` again. This time, the string array `parameters` will have the new message stored within it. `words` is again updated with the new string and number, `num` is incremented, and the return message is produced.
+
+---
 
 ## Part 2
 
 ![Image](../labreport2-images/keys.png)
 
 ![Image](../labreport2-images/ssh-login.png)
+
+---
+
+## Part 3
+
+One thing I'm very glad I learned isn't directly related to any work we were assigned, but it was very useful. I figured out how to create folders within my GitHub repository to more efficiently store my lab reports and their assets.
+
