@@ -10,7 +10,7 @@
 
 When `cd` is used with no arguements, your current directory is changed to the home directory. No error is produced.
 
-Working directory: `/home/lecture1/messages`
+Working directory: `/home/lecture1/messages`\
 
 ![Image](../labreport1-images/cd2.png)
 
