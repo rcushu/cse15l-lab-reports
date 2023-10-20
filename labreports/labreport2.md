@@ -32,3 +32,4 @@ Here, the `handleRequest` method is being called, as it is when any URL is creat
 
 One thing I'm very glad I learned isn't directly related to any work we were assigned, but it was very useful. I figured out how to create folders within my GitHub repository to more efficiently store my lab reports and their assets.
 
+Additionally, the first lab report taught me that I can use commands like `ls` in directories present within my current directory, not just on the current one, removing the need to `cd` into the next directory to use `ls` on it.
