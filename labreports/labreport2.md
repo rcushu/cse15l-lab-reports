@@ -28,7 +28,7 @@ Here, the `handleRequest` method is being called, as it is when any URL is creat
 
 ![Image](../labreport2-images/keys.png)
 
-Was having some trouble getting a screenshot of the path to the public key for my SSH key for logging into ieng6 within my account, so I asked a question on EdStem. I'll leave it out for now, and add it when I figure it out.
+![Image](../labreport2-images/public-key.png)
 
 ![Image](../labreport2-images/ssh-login.png)
 
