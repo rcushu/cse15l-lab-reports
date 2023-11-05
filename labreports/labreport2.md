@@ -10,11 +10,15 @@
 
 ![Image](../labreport2-images/add-message1.png)
 
+![Image](../labreport2-images/list1.png)
+
 Here, the `handleRequest` method is being called, as it is when any URL is created. The method will use the URL as the argument and, in this case, detect that the path of the URL contains `/add-message`. It will then store the message that is being added in a string array called `parameters`, which is then used to add the new word to the list. Two values change from this request: the `words` string containing the list of words, and the integer `num` which keeps track of how many words there are so it can correctly display the numbered list. Finally, the method will return a string saying that your word has been added.
 
 **Adding "How are you:"**
 
 ![Image](../labreport2-images/add-message2.png)
+
+![Image](../labreport2-images/list2.png)
 
 `handleRequest` is once again being called and detects that the URL contains `/add-message` again. This time, the string array `parameters` will have the new message stored within it. `words` is again updated with the new string and number, `num` is incremented, and the return message is produced.
 
