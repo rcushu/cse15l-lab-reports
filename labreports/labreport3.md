@@ -14,8 +14,8 @@ JUnit Test:
 public void testReverseInPlace() {
     int[] input1 = { 3, 2, 1 };
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 1, 2, 1 }, input1);
-	}
+    assertArrayEquals(new int[]{ 1, 2, 3 }, input1);
+}
 ```
 Input: `{ 3, 2, 1 }`
 
@@ -25,7 +25,15 @@ Actual:     `{ 1, 2, 1 }`
 
 ### Non-Failure Inducing Input:
 
-![Image](../labreport3-images/noFailure.png)
+JUnit Test:
+```
+@Test 
+public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+}
+```
 
 Input: `{ 3 }`
 
