@@ -142,21 +142,14 @@ $ find 911report/ -size +400
 ```
 
 ```
-$ find government/ -size -2
-
-government/
-
-government/About_LSC
-
-government/Alcohol_Problems
-
-government/Env_Prot_Agen
-
-government/Gen_Account_Office
-
-government/Media
-
-government/Post_Rate_Comm
+$ find government/ -size -2  
+government/  
+government/About_LSC  
+government/Alcohol_Problems  
+government/Env_Prot_Agen  
+government/Gen_Account_Office  
+government/Media  
+government/Post_Rate_Comm  
 ```
 
 `find -size` checks a directory for files that are either above or below a certain number of blocks (indicated by the + or - preceding the desired number of blocks). This is useful for finding files above or below certain sizes.
