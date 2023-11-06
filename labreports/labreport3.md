@@ -8,8 +8,7 @@
 
 ### Failure Inducing Input:
 
-![Image](../labreport3-images/failure.png)
-
+JUnit Test:
 ```
 @Test 
 public void testReverseInPlace() {
