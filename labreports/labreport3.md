@@ -155,10 +155,38 @@ $ find . -type d
 ```
 
 ```
-$ find . -type f
-
+$ find . -type f -size +100k  
+./911report/chapter-1.txt  
+./911report/chapter-12.txt  
+./911report/chapter-13.2.txt  
+./911report/chapter-13.3.txt  
+./911report/chapter-13.4.txt  
+./911report/chapter-13.5.txt  
+./911report/chapter-3.txt  
+./911report/chapter-6.txt  
+./911report/chapter-7.txt  
+./911report/chapter-9.txt  
+./biomed/1471-2105-3-2.txt  
+./government/About_LSC/commission_report.txt  
+./government/About_LSC/State_Planning_Report.txt  
+./government/Env_Prot_Agen/bill.txt  
+./government/Env_Prot_Agen/ctm4-10.txt  
+./government/Env_Prot_Agen/multi102902.txt  
+./government/Env_Prot_Agen/tech_adden.txt  
+./government/Gen_Account_Office/ai9868.txt  
+./government/Gen_Account_Office/d01376g.txt  
+./government/Gen_Account_Office/d01591sp.txt  
+./government/Gen_Account_Office/d0269g.txt  
+./government/Gen_Account_Office/d02701.txt  
+./government/Gen_Account_Office/gg96118.txt  
+./government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt  
+./government/Gen_Account_Office/im814.txt  
+./government/Gen_Account_Office/May1998_ai98068.txt  
+./government/Gen_Account_Office/pe1019.txt  
+./government/Gen_Account_Office/Sept27-2002_d02966.txt  
+./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt  
 ```
-`find -type` displays certain information depending on the letter that follows it. In the first example with `d`, it is displaying all the directories and subdirectories withtin the current directory. In the second example
+`find -type` displays certain information depending on the letter that follows it. In the first example with `d`, it is displaying all the directories and subdirectories withtin the current directory. In the second example with `f`, it is displaying all the files in the current directory (I included the `-size` option here just so it wouldn't display the thousands of files in the directory).
 
 [Source](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
