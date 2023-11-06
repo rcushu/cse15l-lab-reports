@@ -43,6 +43,8 @@ Actual:     `{ 3 }`
 
 ### Symptom:
 
-![Image](../labreport3-images/noFailure.png)
-
+Failure:
 ![Image](../labreport3-images/failure.png)
+
+No failure:
+![Image](../labreport3-images/noFailure.png)
