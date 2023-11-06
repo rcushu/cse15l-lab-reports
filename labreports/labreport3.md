@@ -10,6 +10,14 @@
 
 ![Image](../labreport3-images/failure.png)
 
+```
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3, 2, 1 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 1, 2, 1 }, input1);
+	}
+```
 Input: `{ 3, 2, 1 }`
 
 Expected:   `{ 1, 2, 3 }`
