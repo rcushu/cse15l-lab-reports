@@ -66,10 +66,12 @@ static void reverseInPlace(int[] arr) {
 After:
 ```
 static void reverseInPlace(int[] arr) {
-    for(int i = 0; i < arr.length/2; i += 1) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
       int temp = arr[i];
-      arr[i] = arr[arr.length - 1];
+      arr[i] = arr[arr.length - i - 1];
       arr[arr.length - i - 1] = temp;
     }
 }
 ```
+
+Instead of iterating through the entire list and continuing to swap when it's not needed anymore, this will instead iterate through half of the list. A temporary variable is used to store the current elements value to be swapped with its counterpart later.
