@@ -149,3 +149,43 @@ $ find . -type d
 ./government/Post_Rate_Comm  
 ./plos  
 ```
+
+```
+$ find . -type f
+
+```
+`find -type` displays certain information depending on the letter that follows it. In the first example with `d`, it is displaying all the directories and subdirectories withtin the current directory. In the second example
+
+### `find -size`:
+
+```
+$ find . -size +200k  
+./911report/chapter-13.4.txt  
+./911report/chapter-13.5.txt  
+./911report/chapter-3.txt  
+./government/About_LSC/commission_report.txt  
+./government/Env_Prot_Agen/bill.txt  
+./government/Gen_Account_Office/d01591sp.txt  
+./government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt  
+./government/Gen_Account_Office/pe1019.txt  
+./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt  
+```
+
+```
+$ find . -size -2k  
+.  
+./911report  
+./biomed  
+./government  
+./government/About_LSC  
+./government/Alcohol_Problems  
+./government/Env_Prot_Agen  
+./government/Gen_Account_Office  
+./government/Media  
+./government/Post_Rate_Comm  
+./plos  
+./plos/pmed.0020191.txt  
+./plos/pmed.0020226.txt  
+```
+
+`find -size` displays all directories, subdirectories, and files in the current directory that have are either above or below a certain size (indicated by the + or - preceding the desired size). Letters that further specify file size follow the number, such as c for bytes, k for kilobytes, and M for megabytes. This is useful for finding particularly small or large directories, subdirectories, or files.
