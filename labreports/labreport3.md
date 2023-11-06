@@ -111,6 +111,8 @@ $ find 911report/ -name preface.txt
 
 `find -name` checks a directory for files of certain types (as seen in the first example) or files with a specific name (as seen in the second example). This is useful for finding a file or files of certain type in large directories that would otherwise by hard to manually search through.
 
+[Source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#)
+
 ### `find -size`:
 
 ```
@@ -132,6 +134,8 @@ government/Post_Rate_Comm
 ```
 
 `find -size` checks a directory for files that are either above or below a certain number of blocks (indicated by the + or - preceding the desired number of blocks). This is useful for finding files above or below certain sizes.
+
+[Source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#)
 
 ### `find -type`:
 
@@ -155,6 +159,8 @@ $ find . -type f
 
 ```
 `find -type` displays certain information depending on the letter that follows it. In the first example with `d`, it is displaying all the directories and subdirectories withtin the current directory. In the second example
+
+[Source](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
 ### `find -size`:
 
@@ -189,3 +195,5 @@ $ find . -size -2k
 ```
 
 `find -size` displays all directories, subdirectories, and files in the current directory that have are either above or below a certain size (indicated by the + or - preceding the desired size). Letters that further specify file size follow the number, such as c for bytes, k for kilobytes, and M for megabytes. This is useful for finding particularly small or large directories, subdirectories, or files.
+
+[Source](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
