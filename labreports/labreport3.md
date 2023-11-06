@@ -6,8 +6,14 @@
 
 ![Image](../labreport3-images/reverseInPlace.png)
 
-Failure Inducing Input:
+### Failure Inducing Input:
 
-Non-Failure Inducing Input:
+![Image](../labreport3-images/failure.png)
+
+Expected: `{ 1, 2, 3}`
+
+Actual: `{ 1, 2, 1}`
+
+### Non-Failure Inducing Input:
 
 ![Image](../labreport3-images/noFailure.png)
