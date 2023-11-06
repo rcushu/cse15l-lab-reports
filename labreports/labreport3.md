@@ -79,4 +79,56 @@ Instead of iterating through the entire list and continuing to swap when it's no
 
 ## Part 2
 
-### `find` command
+### `find` command:
+
+### `find -name`:
+
+`
+$ find 911report/ -name *.txt
+911report/chapter-1.txt
+911report/chapter-10.txt
+911report/chapter-11.txt
+911report/chapter-12.txt
+911report/chapter-13.1.txt
+911report/chapter-13.2.txt
+911report/chapter-13.3.txt
+911report/chapter-13.4.txt
+911report/chapter-13.5.txt
+911report/chapter-2.txt
+911report/chapter-3.txt
+911report/chapter-5.txt
+911report/chapter-6.txt
+911report/chapter-7.txt
+911report/chapter-8.txt
+911report/chapter-9.txt
+911report/preface.txt
+`
+
+`
+$ find 911report/ -name preface.txt
+911report/preface.txt
+`
+
+`find -name` checks a directory for files of certain types (as seen in the first example) or files with a specific name (as seen in the second example). This is useful for finding a file or files of certain type in large directories that would otherwise by hard to manually search through.
+
+### `find -size`:
+
+`
+$ find 911report/ -size +400
+911report/chapter-13.4.txt
+911report/chapter-13.5.txt
+911report/chapter-3.txt
+`
+
+`
+$ find government/ -size -2
+government/
+government/About_LSC
+government/Alcohol_Problems
+government/Env_Prot_Agen
+government/Gen_Account_Office
+government/Media
+government/Post_Rate_Comm
+`
+
+`find -size` checks a directory for files that are either above or below a certain number of blocks (indicated by the + or - preceding the desired number of blocks). This is useful for finding files above or below certain sizes.
