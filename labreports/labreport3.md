@@ -109,7 +109,7 @@ $ find 911report/ -name preface.txt
 911report/preface.txt  
 ```
 
-`find -name` checks a directory for files of certain types (as seen in the first example) or files with a specific name (as seen in the second example). This is useful for finding a file or files of certain type in large directories that would otherwise by hard to manually search through.
+`find -name` displays files of certain types (as seen in the first example) or files with a specific name (as seen in the second example) in the current directory. This is useful for finding a file or files of certain type in large directories that would otherwise by hard to manually search through.
 
 [Source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#)
 
@@ -133,7 +133,7 @@ government/Media
 government/Post_Rate_Comm  
 ```
 
-`find -size` checks a directory for files that are either above or below a certain number of blocks (indicated by the + or - preceding the desired number of blocks). This is useful for finding files above or below certain sizes.
+`find -size` displays the directories or files that are either above or below a certain number of blocks (indicated by the + or - preceding the desired number of blocks) of the current directory. This is useful for finding files above or below certain block sizes.
 
 [Source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/#)
 
