@@ -40,3 +40,9 @@ Input: `{ 3 }`
 Expected:   `{ 3 }`
 
 Actual:     `{ 3 }`
+
+### Symptom:
+
+![Image](../labreport3-images/noFailure.png)
+
+![Image](../labreport3-images/failure.png)
