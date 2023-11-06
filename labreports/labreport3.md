@@ -10,6 +10,8 @@
 
 ![Image](../labreport3-images/failure.png)
 
+Input: `{ 3, 2, 1 }`
+
 Expected:   `{ 1, 2, 3 }`
 
 Actual:     `{ 1, 2, 1 }`
@@ -17,6 +19,8 @@ Actual:     `{ 1, 2, 1 }`
 ### Non-Failure Inducing Input:
 
 ![Image](../labreport3-images/noFailure.png)
+
+Input: `{ 3 }`
 
 Expected:   `{ 3 }`
 
