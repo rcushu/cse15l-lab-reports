@@ -31,3 +31,4 @@ After typing out *`"sh t"`*, I could press tab to avoid filling in the rest of *
 ### **Keys Pressed:** *`"vim"`, `<space>`, `<shift + L>`, `<tab>`, `".java"`, `<enter>`*
 
 This set of keystrokes is what I used to open the `ListExamples.java` file in VIM. I was able to use *`<tab>`* to fill in the rest of *`"ListExamples"`* after typing a captial L to save a bit of time.
+
