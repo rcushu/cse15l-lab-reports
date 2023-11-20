@@ -4,4 +4,4 @@
 
 ![Image](../labreport4-images/labreport4-4.png)
 
-Keys Pressed: Typed out "ssh cs15lfa23qf@ieng6.ucsd.edu" then pressed `<enter>`
+Keys Pressed: Typed out `"ssh cs15lfa23qf@ieng6.ucsd.edu"` then pressed `<enter>`
