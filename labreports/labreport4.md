@@ -23,3 +23,7 @@ I had the SSH URL copied to my clipboard, so once I had typed out *`"git clone"`
 ### **Keys Pressed:** *`"sh"`, `<space>`, `"t"`, `<tab>`, `<enter>`*
 
 After typing out *`"sh t"`*, I could press tab to avoid filling in the rest of *`"test.sh"`*.
+
+## Step 7: Edit the code file to fix the failing test
+
+### **Keys Pressed:** *`"vim"`, `<space>`, `<shift + L>`, `<tab>`, `".java"`, `<enter>`*
