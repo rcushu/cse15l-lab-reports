@@ -13,3 +13,5 @@ Did not have the ieng6 login previously typed, so I could not use the up arrow t
 ![Image](../labreport4-images/labreport4-5.png)
 
 ### **Keys Pressed:** `"git clone"`, `<ctrl + v>`
+
+I had the SSH URL copied to my clipboard, so once I had typed out `"git clone"`, I could easily paste it in to fill the rest of the command.
