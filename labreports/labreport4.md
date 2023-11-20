@@ -14,10 +14,12 @@ Did not have the ieng6 login previously typed, so I could not use the up arrow t
 
 ### **Keys Pressed:** *`"git clone"`, `<ctrl + v>`, `<enter>`*
 
-I had the SSH URL copied to my clipboard, so once I had typed out `"git clone"`, I could easily paste it in to fill the rest of the command.
+I had the SSH URL copied to my clipboard, so once I had typed out *`"git clone"`*, I could easily paste it in to fill the rest of the command.
 
 ## Step 6: Run the tests, demonstrating that they fail
 
 ![Image](../labreport4-images/labreport4-6.png)
 
 ### **Keys Pressed:** *`"sh"`, `<space>`, `"t"`, `<tab>`, `<enter>`*
+
+After typing out *`"sh t"`*, I could press tab to avoid filling in the rest of *`"test.sh"`*.
