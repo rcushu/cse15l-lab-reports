@@ -53,3 +53,13 @@ After opening `ListExamples.java` in VIM, the first thing I did was pressed `*<s
 ### **Keys Pressed:** *`<up>`, `<up>`, `<enter>`*
 
 The command to run the test was located two commands up in my bash history, so I accessed it by pressing `<up>` twice. This time, the test ran and passed.
+
+---
+
+## Step 9: Commit and push the resulting change to your Github account
+
+![Image](../labreport4-images/labreport4-9.png)
+
+### **Keys Pressed:** `"git commit"`, `<enter>`, `<e>`, `":)"`, `<escape>`, `":wq"`
+
+After typing `"git commit"` into the terminal, I entered insert mode and added my smiley face commit message. I then exited insert mode and finished the commit.
