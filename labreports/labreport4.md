@@ -51,3 +51,5 @@ After opening `ListExamples.java` in VIM, the first thing I did was pressed `*<s
 ![Image](../labreport4-images/labreport4-8.png)
 
 ### **Keys Pressed:** *`<up>`, `<up>`, `<enter>`*
+
+The command to run the test was located two commands up in my bash history, so I accessed it by pressing `<up>` twice. This time, the test ran and passed.
