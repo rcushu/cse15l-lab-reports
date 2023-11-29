@@ -32,3 +32,6 @@ After typing out *`"sh t"`*, I could press tab to avoid filling in the rest of *
 
 This set of keystrokes is what I used to open the `ListExamples.java` file in VIM. I was able to use *`<tab>`* to fill in the rest of *`"ListExamples"`* after typing a captial L to save a bit of time.
 
+### **Keys Pressed:** *`<shift + G>`, `<k>`, `<k>`, `<k>`, `<k>`, `<k>`, `<k>`, `<e>`, `<r>`, `<2>`, `":wq"`, `<enter>`*
+
+After opening `ListExamples.java` in VIM, the first thing I did was pressed `*<shift + G>*` to move my cursor to the bottom of the file, near the error. Then, I pressed `*<k>*` 6 times to take the cursor to the line where the error is present. Pressing <e> took me to the end of the first word, which left my cursor directly over the number that needed to be replaced. I simply followed with `*<r>*` and `*<2>*` to replace a single character and change that character to 2, respectively. Finally, to save and exit the file, I entered `*":wq"*`.
