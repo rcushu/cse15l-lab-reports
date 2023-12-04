@@ -6,3 +6,4 @@
 
 ## 2.
 
+![Image](../labreport5-images/labreport5-2.png)
