@@ -32,6 +32,8 @@ Looking at the `while` loop in question, it can be seen that the `while` loop ru
 
 ![Image](../labreport5-images/labreport5-4-1.png)
 
+To fix the bug, the greater-than sign (>) in the `while` loop containing the bug must be changed to a less-than sign (<). This allows the while loop to traverse through `list1` and adds its contents to `result`.
+
 ## Part 2 - Reflection
 
 Perhaps this is too broad of an answer, but learning how to use and working with Vim has not only been a very new experience, but has also been genuinely and strangely fun. I didn't think I could find enjoyment in using a text editor program, but Vim has been a real pleasure to use. And, of course, being able to edit from the command line is extremely useful.
