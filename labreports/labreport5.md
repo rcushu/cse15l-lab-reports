@@ -24,17 +24,21 @@ Looking at the `while` loop in question, it can be seen that the `while` loop ru
 
 ### 4.
 
-**`ListExamples.java` before the bug is fixed:**
+**File & Directory Structure:**
+
+![Image](../labreport5-images/labreport5-4-4.png)
+
+**`ListExamples.java` Before the Bug is Fixed:**
 
 ![Image](../labreport5-images/labreport5-4.png)
 
-**`ListExamples.java` after the bug is fixed:**
+**`ListExamples.java` After the Bug is Fixed:**
 
 ![Image](../labreport5-images/labreport5-4-1.png)
 
 To fix the bug, the greater-than sign (>) in the `while` loop containing the bug must be changed to a less-than sign (<). This allows the while loop to traverse through `list1` and adds its contents to `result`.
 
-**The full command line ran to trigger the bug:**
+**The Full Command Line Ran to Trigger the Bug:**
 
 ![Image](../labreport5-images/labreport5-4-2.png)
 
